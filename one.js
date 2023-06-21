@@ -4,7 +4,7 @@ let new_user=user.map((user)=>{
 
     return user +1;
 })
-console.log(user)
+console.log(user);
 console.log(new_user);
 
 
