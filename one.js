@@ -1,6 +1,9 @@
-let user=[45,42,41,52]
-let new_user=user.forEach((user)=>{
-    return user + 1;
+const http= require("http")
+const server=http.createServer((req,res)=>{
+    res.end("HTTP")
+
 })
-console.log(new_user);
-console.log(user)
+server.listen(12000,(err)=>{
+    if(err) throw err
+    console.log("Server is Running on the website")
+})
