@@ -1,4 +1,4 @@
-function onSecond(){
-    setInterval(function(){console.log("Good Evening"),2000})
-}onSecond();
-
+function mani(){
+    setTimeout(function(){console.log("Good Evening"),2000})
+}mani();
+mani();
