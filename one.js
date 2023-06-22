@@ -1,10 +1,6 @@
-let user=[12,13,14,15]
-
+let user=[45,42,41,52]
 let new_user=user.map((user)=>{
-
-    return user +1;
+    return user + 1;
 })
+console.log(new_user)
 console.log(user);
-console.log(new_user);
-
-
