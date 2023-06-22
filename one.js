@@ -1,9 +1,4 @@
-const http= require("http")
-const server=http.createServer((req,res)=>{
-    res.end("HTTP")
+function onSecond(){
+    setInterval(function(){console.log("Good Evening"),2000})
+}onSecond();
 
-})
-server.listen(12000,(err)=>{
-    if(err) throw err
-    console.log("Server is Running on the website")
-})
