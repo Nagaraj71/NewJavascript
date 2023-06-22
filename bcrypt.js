@@ -6,7 +6,7 @@ let new_user = {...user, new_password}
 
 let result= bcrypt.compareSync("1234",new_password)
 if(result){
-    console.log("Login Successfully")
+    console.log("Login Successfully");
 }else{
-    console.log("Login Failed")
+    console.log("Login Failed");
 }
