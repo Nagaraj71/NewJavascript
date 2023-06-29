@@ -1,7 +1,6 @@
-function hello(){
-  
-        console.log("Server Running On HTTP")
-    
-}hello()
-hello()
-hello()
+function one(){
+        setInterval(function(){
+console.log("Gm")
+        },2000)
+}
+one();
