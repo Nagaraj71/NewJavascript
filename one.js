@@ -1,5 +1,6 @@
-function nagu(){
+function one(){
     setInterval(function(){
-        console.log("Good Evening")
+
+      console.log("Hello");  
     },2000)
-}nagu()
+}one()

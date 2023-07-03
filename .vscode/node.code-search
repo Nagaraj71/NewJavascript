@@ -1,0 +1,19 @@
+# Query: node
+# ContextLines: 1
+
+4 results - 1 file
+
+.vscode\launch.json:
+  11              "skipFiles": [
+  12:                 "<node_internals>/**"
+  13              ],
+  14:             "type": "node"
+  15          },
+
+  17          {
+  18:             "type": "node",
+  19              "request": "launch",
+
+  21              "skipFiles": [
+  22:                 "<node_internals>/** on"
+  23              ],
