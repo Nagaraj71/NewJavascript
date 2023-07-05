@@ -1,15 +1,8 @@
 const bcrypt=require("bcryptjs")
-let user={name:"nagaraj",email:"nagaraj@dilabs.in",phone:"8618576762"}
-let salt=bcrypt.genSaltSync(10);
-let new_phone=bcrypt.hashSync(user.phone,salt);
-let new_user={...user, phone:new_phone}
+let user={name:"nagaraj", email:"nagaraj@dilabs.in",password:"1234"}
+let salt=bcrypt.genSaltSync(10)
+let new_password=bcrypt.hashSync(user.password, salt)
 
+let new_user={...user, password:new_password}
 
-
-let result=bcrypt.compareSync("8618576762","new_phone");
-
-if(result){
-    console.log("Login Successfully")
-}else{
-    console.log("Login Failed")
-}
+console.log(new_user)

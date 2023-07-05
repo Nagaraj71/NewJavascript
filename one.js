@@ -1,2 +1,3 @@
-let v1= "hello".endsWith("h");
-console.log(v1)
+setInterval(() => {
+ console.log("Hai Good evening")   
+}, 2000);
