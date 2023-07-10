@@ -1,8 +1,11 @@
-const jwt= require("jsonwebtoken")
-let user={email:"nagaraj@dilabs.in",password:"12345"}
-let payload={id:user.email};
-let secretkey="HEDFSOFA";
-let token=jwt.sign(payload,secretkey,{expiresIn:60*60});
-let new_payload=jwt.verify(token,secretkey)
-console.log(token);
-console.log(new_payload);
+var express= require("express")
+var app=express();
+app.get("./",(req,res)=>{
+    resp.send("Root Request")
+
+})
+app.listen(5000,(err)=>{
+
+    if(err) throw err;
+    console.log("Server Running on the Port:5000")
+})
