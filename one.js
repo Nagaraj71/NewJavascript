@@ -1,11 +1,10 @@
-var express= require("express")
+var express=require("express")
 var app=express();
 app.get("./",(req,res)=>{
-    resp.send("Root Request")
-
+    response.end("Server Running")
 })
-app.listen(5000,(err)=>{
+app.listen(3000,(err)=>{
 
     if(err) throw err;
-    console.log("Server Running on the Port:5000")
+    console.log("Server Running on Express:3000")
 })
